@@ -1,14 +1,13 @@
-<h1>
-  {{title}}
-</h1>
+<div>
+    <nav>
+        <a routerLink="/about">About Me</a>
+        <a routerLink="/portfolio">Portfolio</a>
+        <a routerLink="/contact">Contact Me</a>
+        <a routerLink="/todo">My ToDo List</a>
+        <a routerLink="/addressbook">My Addresses</a>
+        <a routerLink="/calendar">My Calandar</a>
+    </nav>
+    <h1>{{title}}</h1>
 
-<p>This is going to be my portfolio for Angular.</p>
-
-<a routerLink="/about">About Me</a>
-<a routerLink="/portfolio">Portfolio</a>
-<a routerLink="/contact">Contact Me</a>
-<a routerLink="/todo">My ToDo List</a>
-<a routerLink="/addressbook">My Addresses</a>
-<a routerLink="/calendar">My Calandar</a>
-
-<router-outlet></router-outlet>
+    <router-outlet></router-outlet>
+</div>

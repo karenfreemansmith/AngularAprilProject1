@@ -1,0 +1,6 @@
+div {
+    display: flex;
+    justify-content: space-around;
+    min-height: 0;
+    max-height: 20%;
+}

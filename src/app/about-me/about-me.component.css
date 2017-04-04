@@ -1,0 +1,7 @@
+img {
+    width: 180px;
+    height: 180px;
+    border: solid black 2px;
+    border-radius: 50%;
+    float: right;
+}
