@@ -8,12 +8,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require('@angular/core');
 var TaskComponent = (function () {
     function TaskComponent() {
+        this.title = 'Task Title';
+        this.description = 'This is a task I should do today, or maybe tomorrow, because it is really important';
+        this.status = 'not started';
+        this.category = 'testing';
     }
     TaskComponent.prototype.ngOnInit = function () {
     };
     TaskComponent = __decorate([
         core_1.Component({
             selector: 'app-task',
+            inputs: ['title', 'description', 'status', 'category'],
             templateUrl: './task.component.html',
             styleUrls: ['./task.component.css']
         })
