@@ -17,6 +17,15 @@ var contact_me_component_1 = require('./contact-me/contact-me.component');
 var todo_list_component_1 = require('./todo-list/todo-list.component');
 var my_contacts_component_1 = require('./my-contacts/my-contacts.component');
 var my_calendar_component_1 = require('./my-calendar/my-calendar.component');
+var project_component_1 = require('./project/project.component');
+var project_detail_component_1 = require('./project-detail/project-detail.component');
+var task_component_1 = require('./task/task.component');
+var contact_component_1 = require('./contact/contact.component');
+var contact_detail_component_1 = require('./contact-detail/contact-detail.component');
+var month_component_1 = require('./month/month.component');
+var week_component_1 = require('./week/week.component');
+var day_component_1 = require('./day/day.component');
+var day_detail_component_1 = require('./day-detail/day-detail.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -29,7 +38,16 @@ var AppModule = (function () {
                 contact_me_component_1.ContactMeComponent,
                 todo_list_component_1.TodoListComponent,
                 my_contacts_component_1.MyContactsComponent,
-                my_calendar_component_1.MyCalendarComponent
+                my_calendar_component_1.MyCalendarComponent,
+                project_component_1.ProjectComponent,
+                project_detail_component_1.ProjectDetailComponent,
+                task_component_1.TaskComponent,
+                contact_component_1.ContactComponent,
+                contact_detail_component_1.ContactDetailComponent,
+                month_component_1.MonthComponent,
+                week_component_1.WeekComponent,
+                day_component_1.DayComponent,
+                day_detail_component_1.DayDetailComponent
             ],
             imports: [
                 platform_browser_1.BrowserModule,
@@ -41,6 +59,7 @@ var AppModule = (function () {
                     { path: 'contact', component: contact_me_component_1.ContactMeComponent },
                     { path: 'todo', component: todo_list_component_1.TodoListComponent },
                     { path: 'addressbook', component: my_contacts_component_1.MyContactsComponent },
+                    { path: 'day-detail', component: day_detail_component_1.DayDetailComponent },
                     { path: 'calendar', component: my_calendar_component_1.MyCalendarComponent }
                 ])
             ],

@@ -50,6 +50,7 @@ import { DayDetailComponent } from './day-detail/day-detail.component';
       { path: 'contact', component: ContactMeComponent },
       { path: 'todo', component: TodoListComponent },
       { path: 'addressbook', component: MyContactsComponent },
+      { path: 'day-detail', component: DayDetailComponent },
       { path: 'calendar', component: MyCalendarComponent }
     ])
   ],
