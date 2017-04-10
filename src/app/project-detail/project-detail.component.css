@@ -1,11 +1,20 @@
 img {
-    width: 360px;
-    height: 240px;
+    width: 60%;
     border: 1px solid black;
-    margin:auto;
+    display: block;
+    margin: auto;
 }
 
 div {
     min-height: 240px;
-    width: 67%;
+    width: 90%;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    width: 60%;
+    margin: auto;
 }

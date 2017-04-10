@@ -14,6 +14,7 @@ var ContactComponent = (function () {
     ContactComponent = __decorate([
         core_1.Component({
             selector: 'app-contact',
+            inputs: ["firstname", "lastname"],
             templateUrl: './contact.component.html',
             styleUrls: ['./contact.component.css']
         })

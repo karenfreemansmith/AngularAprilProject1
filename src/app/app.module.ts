@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { AboutMeComponent } from './about-me/about-me.component';
@@ -50,7 +50,7 @@ import { DayDetailComponent } from './day-detail/day-detail.component';
       { path: 'contact', component: ContactMeComponent },
       { path: 'todo', component: TodoListComponent },
       { path: 'addressbook', component: MyContactsComponent },
-      { path: 'day-detail', component: DayDetailComponent },
+      { path: 'day-detail/:detail', component: DayDetailComponent },
       { path: 'calendar', component: MyCalendarComponent }
     ])
   ],

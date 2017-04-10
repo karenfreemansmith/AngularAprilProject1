@@ -59,7 +59,7 @@ var AppModule = (function () {
                     { path: 'contact', component: contact_me_component_1.ContactMeComponent },
                     { path: 'todo', component: todo_list_component_1.TodoListComponent },
                     { path: 'addressbook', component: my_contacts_component_1.MyContactsComponent },
-                    { path: 'day-detail', component: day_detail_component_1.DayDetailComponent },
+                    { path: 'day-detail/:detail', component: day_detail_component_1.DayDetailComponent },
                     { path: 'calendar', component: my_calendar_component_1.MyCalendarComponent }
                 ])
             ],

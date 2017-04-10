@@ -8,12 +8,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require('@angular/core');
 var DayDetailComponent = (function () {
     function DayDetailComponent() {
+        this.detail = "April 01";
     }
     DayDetailComponent.prototype.ngOnInit = function () {
     };
     DayDetailComponent = __decorate([
         core_1.Component({
             selector: 'app-day-detail',
+            inputs: ['detail'],
             templateUrl: './day-detail.component.html',
             styleUrls: ['./day-detail.component.css']
         })
